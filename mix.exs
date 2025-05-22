@@ -54,10 +54,10 @@ defmodule OpentelemetryTesla.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:opentelemetry, "~> 1.0", only: :test},
-      {:opentelemetry_api, "~> 1.2"},
+      {:opentelemetry, "~> 1.5", only: :test},
+      {:opentelemetry_api, "~> 1.4"},
       {:opentelemetry_telemetry, "~> 1.1"},
-      {:opentelemetry_semantic_conventions, "~> 0.2"},
+      {:opentelemetry_semantic_conventions, "~> 1.27"},
       {:tesla, "~> 1.4"},
       {:ex_doc, "~> 0.37", only: :dev, runtime: false},
       {:bypass, "~> 2.1", only: :test},
